@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVw-so-u3a">
-                                <rect key="frame" x="85" y="678" width="245" height="40"/>
+                                <rect key="frame" x="84.5" y="678" width="245" height="40"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="245" id="FYD-EY-aQv"/>
@@ -42,11 +42,10 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cqK-js-yaB" secondAttribute="trailing" constant="102" id="596-5P-Z1X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kVw-so-u3a" secondAttribute="trailing" symbolic="YES" id="63Z-yq-4OK"/>
+                            <constraint firstItem="kVw-so-u3a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6tZ-ln-wD8"/>
                             <constraint firstItem="cqK-js-yaB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="EkC-7E-Axy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kVw-so-u3a" secondAttribute="bottom" constant="144" id="gra-6d-wRb"/>
-                            <constraint firstItem="kVw-so-u3a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="634" id="osk-Er-ay3"/>
                             <constraint firstItem="cqK-js-yaB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="qSn-Ui-wwP"/>
-                            <constraint firstItem="kVw-so-u3a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="ybA-AY-mfZ"/>
                         </constraints>
                     </view>
                     <connections>
